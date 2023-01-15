@@ -1,0 +1,575 @@
+
+  /* -- -----------------
+   Only  Desktop or Mobile And Tablet Responsive And No Laptop Devices Responsive  Max Width 1440px 
+     ------------------- -- */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* -- -----------------
+     Website Fixed Width Section
+     ------------------- -- */ 
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* -- -----------------
+      Header Nav Section Start
+     ------------------- -- */ 
+.header-section{
+    background-color: #FFF4E7;
+    
+}
+.logo{
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+}
+.navbar ul li a{
+    font-size: 1.25rem;
+    padding: 60px 0;
+    display: block;
+    color: #424242;
+}
+
+/* -- -----------------
+      Header Nav Section Ends
+     ------------------- -- */ 
+
+
+/* -- -----------------
+      Hero  Section Start
+     ------------------- -- */ 
+
+.hero-section{
+    padding-top: 100px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.hero-title{
+    font-size:4rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.hero-desc{
+    font-size: 1rem;
+    color: #727272;
+    line-height: 1.8rem;
+}
+.primary-btn{
+    background-color: #FF900E;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    color: white;
+    border: none;
+    border-radius:5px;
+    outline:none;
+    margin:35px auto;
+    display:block;
+}
+
+/* Banner Section  */
+.banner-section img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+/* -- -----------------
+      Hero  Section Start Ends
+     ------------------- -- */
+.our-services{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.services-section{
+        display: flex;
+        align-items: center;
+        gap: 70px;
+     } 
+.services-section{
+    max-width: 100%;   
+}
+.services-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+}
+.btn{
+    background-color: #FF900E;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    color: white;
+    border: none;
+    border-radius:5px;
+    outline:none;
+    margin:35px 0px;
+    display:block;
+}
+.services-item img{
+    border-radius: 10px;
+}
+.our-services-title{
+    font-size: 3rem;
+    color: #727272;
+    margin-bottom: 30px;
+
+}
+.primary-bold{
+    color:#131313;
+}
+.primay-text{
+    color: #FF900E;
+}
+.our-services-desc{
+    font-size: 1.25rem;
+    color: #727272;
+    line-height: 2rem;
+}
+
+/* -- -----------------
+Features you will love & enjoy  Section Start
+------------------- - */
+.feature{
+    display: flex;
+    gap: 50px;
+}
+.feature-tilte{
+    font-size: 3rem;
+    border-left: 6px solid #FF900E;
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+.feature-desc{
+    font-size: 1.25rem;
+    color: #727272;
+    line-height: 2rem;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.feature-item{
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    width: 90%;
+}
+.feature-item-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature-item-desc{
+    font-size: 1.25rem;
+    color: #727272;
+    line-height: 2rem;
+}
+.btn-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+    margin-right: -150px;
+}
+.secondary-btn{
+    color: #FFFFFF;
+    font-size: 40px;
+    padding: 45px 40px;
+   background-color: #FF900E;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+} 
+.btn-desc{
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+/* -- -----------------
+Features you will love & enjoy  Section Ends
+------------------- - */
+
+
+/* 
+-- -----------------
+Some Facts  Section Start
+------------------- -- */
+.fact-title{
+   margin: 150px 0px 60px 0px;
+}
+.fact-left-title{
+    font-size:45px;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.fact-desc{
+    width: 45%;
+    font-size: 1.25rem;
+    color: #727272;
+    line-height: 2rem;
+
+}
+
+.main-facts{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items:center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.projects-item{
+    width: 250px;
+    height: 250px;
+    padding: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* Before After Hover Css Part  Start*/
+.projects-item::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height:0%;
+    width: 0%;
+    box-sizing: border-box;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    transition: all .8s ease;
+}
+.projects-item::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    height: 0%;
+    width: 0%;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    transition: all .8s ease;
+}
+.projects-item:hover:after,
+.projects-item:hover:before{
+    border-color: #FF900E;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+/* Before After Hover Css Part Ends  */
+.projects-item img{
+    width: 50px;
+    height: 50px;
+}
+.project-count{
+    font-size: 45px;
+    color: #131313;
+    margin: 5px 0;
+}
+.projects-desc{
+    font-size: 1.25rem;
+    color: #727272;
+    line-height: 2rem;
+}
+
+
+/* 
+-- -----------------
+Some Facts  Section Ends
+------------------- -- */
+
+.sponsor-section{
+    margin-bottom: 40px;
+}
+.sponsor-item{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+.sponsor-icon{
+    padding: 20px 0px;
+}
+.sponsor-main-section{
+    margin: 40px 0;
+}
+.sponsor-title{
+    font-size: 45px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.sponsor-desc{
+    font-size: 1.25rem;
+    color: #727272;
+    line-height: 2rem;
+    text-align: center;
+    width: 50%;
+    margin: 30px auto;
+
+}
+/* Footer section Css Start  */
+
+.footer{
+    background-color:#011C39;
+    color: white;
+    padding: 40px 30px;
+}
+.footer-item{
+    display: grid;
+    grid-template-columns: 40% repeat(3, 1fr);
+    gap: 20px;
+    
+}
+.footer-title{
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.footer-desc{
+    font-size: 1.25rem;
+    color: #727272;
+    line-height: 2rem;
+    margin-bottom: 40px;
+}
+.footer-main-item > ul li{
+    font-size: 18px;
+    padding: 10px 0;
+    font-weight: 400;
+    cursor: pointer;
+    color: #727272;
+    transition: all .5s ease;
+}
+.footer-main-item > ul li:hover{
+    color: #FF900E;
+    padding-left: 8px;
+
+}
+
+.footer-social > span{
+    width: 60px;
+    height: 60px;
+    background-color:#364962;
+    padding: 20px 16px;
+    margin: 5px;
+    line-height: 60px;
+    cursor: pointer;
+}
+.footer-social > span i{
+    font-size: 20px;
+}
+    /* footer section start  */
+
+.end-footer{
+    background-color: #FFF4E7;
+    padding: 30px 0;
+}
+
+.all-right-footer{
+    text-align: center;
+    font-size: 20px;
+}
+     /* -- -----------------
+    Media Query BreakPoints Responsive Start Only  Mobile Device 
+     ------------------- -- */ 
+     @media only  screen and (max-width:576px) {
+        .container{
+            max-width: 100%;
+        }
+        .navbar{
+            flex-direction: column;
+        }
+        .logo{
+            padding: 20px 0;
+        }
+        .navbar ul{
+            gap: 10px;
+        }
+        .navbar ul li a{
+            padding: 10px 10px;
+            font-size: 1rem;
+           
+        }
+        .hero-section{
+            width: 100%;
+        }
+        .hero-title, .feature-tilte, .our-services-title,.sponsor-title{
+            font-size: 2rem;
+            text-align: center;
+        }
+        .hero-desc, .sponsor-desc{
+            width: 100%;
+            text-align: center;
+        }
+        .banner-section img{
+            padding: 13px;
+            border-radius: 5px;
+        }
+        .services-item{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .services-section, .feature,.main-facts{
+            flex-direction: column;
+        }
+        .feature-right img{
+            width: 100%;
+        }
+        .our-services-desc, .feature-desc{
+            font-size: 1rem;
+             width: 100%;
+            text-align: center;
+            padding: 10px 10px;
+
+        }
+        .feature-tilte{
+            border: none;
+        }
+        .feature-right img{
+            width: 100%;
+            padding: 0px 15px;
+        }
+        .feature-item{
+            width: 95%;
+            padding: 20px 25px;
+            text-align: center;
+        }
+        .secondary-btn{
+            display: none;
+        }
+        .projects-item{
+            margin: 10px 0;
+        }
+        .btn{
+            margin:20px auto;   
+        }
+        .fact-left-title{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .fact-desc{
+            width: 100%;
+            padding: 10px 15px;
+            text-align: center;
+        }
+        .sponsor-item{
+            flex-direction: column;
+        }
+        .footer-item{
+            grid-template-columns: repeat(1, 1fr);
+        }
+     }
+
+  /* -- -----------------
+    Media Query BreakPoints Start  Mobile Device Ends
+     ------------------- -- */ 
+
+
+  /* -- -----------------
+    Media Query BreakPoints Responsive Start Max-width 992px  Only   
+     ------------------- -- */ 
+     @media only screen and (min-width:577px) and (max-width:992px) {
+        .container{
+            max-width: 100%;
+        }
+        .navbar{
+            padding: 0px 40px;
+        }
+        .hero-section{
+            width: 100%;
+        }
+        .banner-section{
+            width: 100%;
+            padding: 0px 30px;
+        }
+        .feature-item{
+            width: 100%;
+        }
+        .feature-left{
+            width: 100%;
+            text-align: center;
+            padding: 0px 30px;
+        }
+        .btn{
+            margin:20px auto;
+            
+        }
+        .services-item{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .services-section{
+            flex-direction: column;
+        }
+        .feature{
+            flex-direction: column; 
+        }
+        .services-title{
+            text-align: center;
+            width: 90%;
+        }
+        .feature-tilte, .secondary-btn{
+            border: none;
+            display: none;
+        }
+        .feature-right img{
+            max-width: 50%;
+            margin: 0 auto;
+            display: block;
+           
+        }
+        .fact-left-title{
+            padding-top: 40px;
+        }
+        .facts-section{
+            text-align: center;
+        }
+        .fact-desc{
+            width: 80%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .sponsor-item{
+            padding: 0px 30px;
+        }
+        .footer-item{
+            grid-template-columns: repeat(2,1fr);
+            
+        }
+        .footer{
+            max-width: 100%;
+        }
+        .projects-item{
+            margin: 20px 0;
+        }
+     }
+  /* -- -----------------
+      Happy Coding Life 
+     thanks programing Hero Team
+     ------------------- -- */ 
+     
+
