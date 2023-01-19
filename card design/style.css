@@ -1,0 +1,49 @@
+
+
+.card{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+
+.main-img img{
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.sercial-img img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 7px solid #ffffff;
+    margin-top: -80px;
+    z-index: 1;
+}
+.card:hover .sercial-img img{
+    border-color: rgb(22, 207, 183);
+    transition: all 0.4s ease;
+}
+
+.card-body{
+    padding: 10px 40px 0px 40px;
+    text-align: justify;
+}
+
+.social-icon i{
+    font-size: 20px;
+    padding: 20px 15px;
+    color: darkblue;
+    cursor: pointer;
+
+}
+.social-icon i:hover{
+    color: cornflowerblue;
+    transition: all 0.4s ease;
+}
