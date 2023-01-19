@@ -1,0 +1,21 @@
+.row{
+    height: 400px;
+    margin-bottom: 5px;
+
+}
+header h2{
+    text-align: center;
+    font-size: 40px;
+}
+.row img{
+    width: 100%;
+}
+
+.second-row{
+    display: flex;
+    gap: 5px;
+}
+
+.row .second-row > div{
+    flex: 1;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design</title>
+    <link rel="stylesheet" href="style/nav.css">
+    <style>
+        label{
+            display: block;
+            margin: 20px;
+           
+        }
+    </style>
+</head>
+<body>
+    <header>
+     
+        <nav>
+            <ul>
+                <li><a href="nav.html">Home</a></li>
+                <li><a href="index.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="audio.html">Media</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <h1>Form Design </h1>
+    <form>
+
+        <label for="text">Your Name
+                <input type="text" placeholder="Enter Your FullName">
+        </label>
+    
+        <label for="email">Your Email
+            <input type="email" placeholder="Enter Your Email">
+        </label>
+        
+        <label for="number">Your Phone
+            <input type="number" placeholder="Enter Your Phone">
+        </label>
+        <label for="password">Your Password
+            <input type="password" placeholder="Enter Your Password">
+        </label>
+       <fieldset>
+        <legend>Pick One Male Or Female</legend>
+        <label for="male">
+            <input type="radio" name="male" id="male">
+            Male
+        </label>
+        <label for="female">
+            <input type="radio" name="male" id="female">
+            Female
+        </label>
+        <label for="other">
+            <input type="radio" name="male" id="female">
+           Other
+        </label>
+       </fieldset>
+        
+       <fieldset>
+        <legend>Check Box</legend>
+        <label for="raju">
+            <input type="checkbox" name="raju" id="raju"> Raju
+        </label>
+        <label for="ashim">
+            <input type="checkbox" name="name" id="ashim"> Ashim
+        </label>
+        <label for="other">
+            <input type="checkbox" name="name" id="other"> Other
+        </label>
+       </fieldset>
+       <fieldset>
+        <legend>Form Message</legend>
+        <label for="message">
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+        </label>
+       </fieldset>
+       <input type="reset" name="" id="">
+       <input type="submit" name="" id="">
+    </form>
+</body>
+</html>
