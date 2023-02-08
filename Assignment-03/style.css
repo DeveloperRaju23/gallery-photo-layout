@@ -1,4 +1,48 @@
-.btn-clg{
-    background-color: #B68C5A;
-    
+
+
+body{
+    font-family: 'EB Garamond', serif;
+}
+ .banner-section{
+    background: linear-gradient(to right, rgba(0,0,0,0.6)40%, rgba(0,0,0,0)), url("images/Rectangle\ 4.png");
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+
+
+.banner-section img{
+    max-width: 100%;
+    height: auto;
+}
+.carousel-img-item img{
+    max-width: 100%;
+    height: auto;
+}
+.carousel-img-item{
+    background: linear-gradient(to right, rgba(0,0,0,0.6)40%, rgba(0,0,0,0)), url('images/slider3.jpg');
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-img-item2{
+    background: linear-gradient(to right, rgba(0,0,0,0.6)40%, rgba(0,0,0,0)), url('images/slider1.jpg');
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-img-item3{
+    background:linear-gradient(to right, rgba(0,0,0,0.6)40%, rgba(0,0,0,0)), url('images/slider2.jpg');
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

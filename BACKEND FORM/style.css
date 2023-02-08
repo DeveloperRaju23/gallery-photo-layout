@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+}
+form{
+    width: 400px;
+    border-radius: 5px;
+    padding: 30px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+}
+
+form input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    outline: none;
+    border-radius: 4px;
+    box-shadow:  12px 12px 24px #bebebe,
+                -12px -12px 24px #ffffff;
+    border: none;
+}
+form select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    outline: none;
+    border-radius: 4px;
+    box-shadow:  12px 12px 24px #bebebe,
+                -12px -12px 24px #ffffff;
+    border: none;
+}
+form textarea{
+    max-width: 100%;
+    max-height: 160px;
+    min-width:100%;
+    min-height: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    outline: none;
+    border-radius: 4px;
+    box-shadow:  12px 12px 24px #bebebe,
+                -12px -12px 24px #ffffff;
+    border: none;
+}
+
+form button{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    font-family: inherit;
+    color: #fff;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+form button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
+   }
+   
+   @keyframes ani {
+    0% {
+     background-position: 0%;
+    }
+   
+    100% {
+     background-position: 400%;
+    }
+   }
+   
+   form button:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1; 
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+   }
+   
+   form button:hover::before {
+    filter: blur(20px);
+   }

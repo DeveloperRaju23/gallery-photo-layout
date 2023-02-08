@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Design Backend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="" id="form">
+        <h2>Register</h2>
+        <input type="text" placeholder="Enter Your First Name" name="fName" required>
+        <input type="text" placeholder="Enter Your Last Name" name="lName" required>
+        <input type="email" placeholder="Enter Your Email" name="email" required>
+        <input type="password" placeholder="Enter Your Password" name="password" required>
+        <select name="country">
+            <option selected>Select Your Country</option required>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+        </select>
+        <textarea name="address" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+        <button>Submit</button>
+
+    </form>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
