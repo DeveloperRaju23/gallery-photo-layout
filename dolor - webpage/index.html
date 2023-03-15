@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .card img{
+            width: 200px;
+            height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <!-- NAVBAR SECTION  -->
+    <div class="navbar bg-blue-500 px-24 mb-12">
+        <div class="flex-1">
+          <a class=" normal-case font-bold text-white text-4xl">daisyUI</a>
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control">
+          </div>
+          <div class="dropdown dropdown-end">
+            <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+               <img src="https://thumbs.dreamstime.com/b/photographer-takes-pictures-vector-logo-front-view-man-digital-camera-photographer-takes-pictures-vector-logo-front-view-man-242851921.jpg" alt="">
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <!-- NAVBAR SECTION ENDS -->
+
+      <!-- card section  -->
+      <div class="px-24 flex gap-4">
+       <div class="grid grid-cols-3 w-4/6 gap-4 "> 
+        <!-- card 01  -->
+        <div class="card  w-full bg-base-100 shadow-xl">
+            <figure><img src="bike.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 id="product-name" class="card-title">Bike</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h3>Price : $<span id="product-price">330</span> </h3>
+              <h4>Quantity:<span id="product-quantity">5</span> </h4>
+              <div class="card-actions justify-start">
+                <button id="first-cart" class="btn btn-primary">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+                  <!-- card 02  -->
+          <div class="card w-full bg-base-100 shadow-xl">
+            <figure><img src="bmw-car.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Car</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h3>Price : $<span>530</span> </h3>
+              <h4>Quantity:<span>10</span> </h4>
+              <div class="card-actions justify-start">
+                <button id="second-cart" class="btn btn-primary">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+                  <!-- card 03  -->
+          <div class="card w-full bg-base-100 shadow-xl">
+            <figure><img src="bycycle.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Bicycle</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <h3>Price : $<span>230</span> </h3>
+              <h4>Quantity:<span>5</span> </h4>
+              <div class="card-actions  justify-start">
+                <button id="third-cart" class="btn  btn-primary">ADD TO CART</button>
+              </div>
+            </div>
+       </div>
+               <!-- card 04  -->
+       <div class="card w-full bg-base-100 shadow-xl">
+        <figure><img src="laptop2.jpg" alt="Shoes" /></figure>
+        <div class="card-body">
+          <h2 class="card-title">Laptop</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h3>Price : $<span>100</span> </h3>
+          <h4>Quantity:<span>3</span> </h4>
+          <div class="card-actions  justify-start">
+            <button id="four-cart" class="btn  btn-primary">ADD TO CART</button>
+          </div>
+        </div>
+   </div>
+           <!-- card 05  -->
+   <div class="card w-full bg-base-100 shadow-xl">
+    <figure><img src="bycycle.jpg" alt="Shoes" /></figure>
+    <div class="card-body">
+      <h2 id="product-title" class="card-title">Camera</h2>
+      <p>If a dog chews shoes whose shoes does he choose?</p>
+      <input id="price-Input" type="text" placeholder="Price" class="input input-bordered  w-full max-w-xs" />
+      <input id="quantity-Input" type="text" placeholder="Quantity" class="input input-bordered  w-full max-w-xs" />
+      <div class="card-actions  justify-start">
+        <button id="last-cart" class="btn  btn-primary">ADD TO CART</button>
+      </div>
+    </div>
+</div>
+<!-- card ends  -->
+          </div>
+          <!-- table section start  -->
+          <div class=" card-detials w-4/12 ">
+            <div class="">
+                <h1 class="text-4xl text-center mx-auto font-bold underline">ToTal Products:<span id="total-product">0</span></h1>
+            </div>
+            <div class="mt-3">
+                <div class="overflow-x-auto ">
+                    <table class="table w-full">
+                      <!-- head -->
+                      <thead>
+                        <tr>
+                          <th>NO</th>
+                          <th>Name</th>
+                          <th>Price</th>
+                          <th>QUANTITY</th>
+                          <th>Total</th>
+                        </tr>
+                      </thead>
+                      <tbody id="table-container">
+
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+            <div class="mt-2 text-1xl text-end p-1 mr-12 font-bold rounded-lg">TOTAL AMOUNT = $<span class="text-indigo-900 font-semibold" id="total">00</span></div>
+          </div>
+          
+          <!-- table section ends  -->
+      </div>
+
+      
+
+      <script src="money.js"></script>
+
+</body>
+</html>

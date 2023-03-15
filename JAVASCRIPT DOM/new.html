@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <section id="main-section">
+      </section>
+    <h2 id="heading">Hello JAVASCRIPT</h2>
+    <section id="main-container">
+        <h1 class="list">D - Document</h1>
+        <h1 class="list">O - Object</h1>
+        <h1 class="list">M - Model</h1>
+    </section>    
+
+
+        <script>
+            const listItems = document.getElementsByTagName('h1');
+            for(const list of listItems){
+                list.style.color = 'red'
+                list.style.fontSize = '50px'
+            }
+            const heading = document.getElementById('heading');
+            heading.style.color = 'white';
+            heading.className = 'myclass'
+            heading.classList.remove('myclass');
+
+
+            const parentContainer = document.getElementById('main-container');
+            const myh1 = document.createElement('h1');
+            myh1.innerText = "javascript beginner";
+            parentContainer.appendChild(myh1)
+
+
+            const parentDiv = document.getElementById('main-section');
+
+            const div = document.createElement('div');
+
+            const h1 = document.createElement('h1');
+            h1.innerText = "javascript dom partice";
+            div.appendChild(h1);
+        </script>
+</body>
+</html> 

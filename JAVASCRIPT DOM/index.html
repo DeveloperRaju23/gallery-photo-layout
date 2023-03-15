@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM</title>
+</head>
+<body>
+    <h1 id="hello-javascript">Hello Javascript DOM</h1>
+    <button id="click-button">Click Me</button> <br> <br>
+
+    <input id="input-field" onchange="upperCase()" type="text"> <br> <br>
+    <button onclick="clickMe()">Submit</button>
+<hr>
+
+    <p id="hello-text">Hello Javascript!!</p>
+    <input id="input-text" type="text"> <br> <br>
+    <button id="submit-button">submit</button>
+
+    <hr>
+
+    <div class="main">
+        <p class="pNode">Hi Raju</p>
+    </div>
+<script>
+            let div = document.createElement('div');
+        div.id = 'raju';
+        div.className = 'asdf'
+        div.innerHTML = '<p> Hello Javascript </p>';
+        document.body.appendChild(div);
+
+            let text = document.createTextNode('hello javascript DOM')
+            div.appendChild (text)
+</script>
+        
+<script src="app.js"></script>
+</body>
+</html>

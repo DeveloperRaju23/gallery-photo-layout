@@ -1,0 +1,35 @@
+@media screen and (max-width:768px) {
+    .container{
+        padding: 0 1rem;
+    }
+        #menu-icon{
+            display: block;
+        }
+        .navbar{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding: 1rem 3%;
+            background: var(--bg-color);
+            display: none;
+        }
+}
+
+@media screen and (min-width:769px) and (max-width:991){
+    .container{
+        padding: 0 1rem;
+    }
+    .navbar li a{
+        margin-left: 0rem;
+      
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:992px){
+    .container{
+        padding: 0 1rem;
+        display: block;
+    }
+}

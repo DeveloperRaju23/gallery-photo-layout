@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/f21385ea12.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+rel="stylesheet">
+</head>
+<body>
+               <!-- NAVBAR SECTION      -->
+               <nav class="navbar navbar-expand-lg  bg-secondary">
+                <div class="container">
+                  <a class="navbar-brand fw-bold text-white  fs-3" href="#">Food Panda</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold ms-3 text-white active" href="#">Home</a>
+                      </li>
+                      <li class="nav-item"> 
+                        <a class="nav-link fs-5 fw-bold ms-3 text-white" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold ms-3 text-white" href="#">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold ms-3 text-white" href="#">Food</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fs-5 fw-bold ms-3 text-white" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <div class="d-flex me-3 my-3" role="search">
+                      <input id="input-search-field" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button id="search-btn" class="btn btn-success" type="submit">Search</button>
+                    </div>
+                    <div class="d-flex">
+                        <button id="menu-login" class="nav-link fs-5 btn btn-primary text-white py-1 px-3 me-3" href="#">Login</button>
+                        <button class="nav-link fs-5 btn btn-primary text-white py-1 px-3" href="#">Register</button>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+              <!-- Popap Login Page  -->
+              <div class="container">
+                  <div class="login" id="popap-on">
+                    <div  class="popap-container">
+                      <span><i id="close" class="fa-solid fa-xmark"></i></span>
+                      <h2 class="text-center my-4">Login User</h2>
+                      <label for="">User Name </label>
+                      <input type="text" placeholder="Enter Your User Name">
+                      <label for="">User Password </label>
+                      <input type="password" placeholder="Enter Your Password">
+                      <button class="btn btn-primary mt-4 py-2 fs-4 px-4">Login</button>
+                    </div>
+                  </div>
+              </div>
+              <section>
+                <div class="container my-3">
+                    <h3 class="text-center">Your Search Results...</h3>
+                    <hr>
+                   <div id="no-found-message" class="d-none">
+                    <h3 class="text-center fst-italic">No Phone Found . Please Try a New Search....</h3>
+                   </div>
+                </div>
+            </section>
+                <section>
+                    <div class="container ">
+                        <div id="food-container" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4  g-4 mb-5">
+                         
+                          </div>
+                    </div>
+                </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script src="food.js"></script>
+    <script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"
+></script>
+</body>
+</html>

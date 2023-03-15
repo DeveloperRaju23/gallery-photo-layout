@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: var(--body-bg);
+}
+:root{
+    --font-family: 'Cinzel', serif;
+    --text-color:#333333;
+    --body_typography-color: #424242;
+    --bg: rgba(0,0,0,0);
+    --body-bg:#EEE6CF;
+
+}
+
+/* navbar css start  */
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem 0;
+}
+img{
+    max-width: 100%;
+}
+
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.main-menu .logo img{
+    width: 25vw;
+}
+
+.menu-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar li{
+    display: inline-block;
+    margin-left: 1.5rem;
+    margin-bottom: 3rem;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: normal;
+    transition: .3s ease;
+    font-family: var(--font-family);
+}
+.navbar li a:hover{
+    color: #8C6A39;
+}
+
+.line{
+    border: 1px solid #333333;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+
+/* Hero section start  */
+
+.hero-content{
+    text-align: center;
+    font-family: var(--font-family);
+}
+.hero-content h2{
+    font-size: 2.4rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+.hero-content h4{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.hero-content h6{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+/* Banner section  */
+.home-image img{
+    width: 100%;
+    height: 35vw;
+    object-fit: cover;
+    margin-bottom: 2.5rem;
+}
+
+.hero-content h3{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    letter-spacing: 3px;
+    font-weight: normal;
+}

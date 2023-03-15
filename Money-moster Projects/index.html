@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/f21385ea12.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+        <h2 class="text-4xl text-center font-bold mt-5 text-cyan-600">Money Master <i class="fa-solid text-purple-600	 fa-dollar-sign"></i> </h2>
+
+        <section class="mt-12 grid grid-cols-2 gap-2 px-40	">
+            <div class=" mx-auto ">
+                <img class="w-full" src="Screenshot_17.png" alt="">
+            </div>
+            <div class="bg-slate-200">
+                <h2 class="text-4xl text-center mt-4 mb-6 font-bold">Total Income</h2>
+
+              <div class="px-40 text-center">
+                <span  class="text-2xl font-bold pr-2">Income:</span>
+                <input id="income" type="text" placeholder="Your Income" class="input w-full max-w-xs" /> <br>
+
+                <span class="text-2xl block mt-4 mb-4 text-center font-bold">Expenses</span>
+
+                <span  class="text-2xl font-bold pr-10">Food:</span>
+                <input id="food" type="text" placeholder="Your Income" class="input w-full  mb-4 max-w-xs" /> <br>
+                <span class="text-2xl font-bold pr-10">Rent:</span>
+                <input  id="rent" type="text" placeholder="Your Income" class="input w-full  mb-4 max-w-xs" /> <br>
+                <span  class="text-2xl font-bold pr-4">Others:</span>
+                <input id="other" type="text" placeholder="Your Income" class="input w-full mb-4 max-w-xs" /> <br>
+                <!-- Button One -->
+                <button id="calculator-btn" class="btn bg-teal-600 border-none mb-4 ps-6 ps-4 px-4">Calculate</button> <br>
+                <span class="text-2xl font-bold mb-6">Total Expenses:<span id="total"></span> </span> <br>
+                <span class="text-2xl mt-6 font-bold ">Balance: <span id="balance-total" ></span> </span> <br>
+              </div>
+                <div class="text-center my-6">
+                    <span class="text-2xl  font-bold mt-4">Save:</span>
+                    <input id="discount" type="text" placeholder="Your Income" class="input w-40 px-4  mb-4 max-w-xs" />  % 
+                    <button id="save-amount" class="btn bg-teal-600 border-none mb-4 ps-6 ps-4 px-4">Save</button> <br>
+                    <span class="text-2xl  font-bold my-6 ">Saving Amount: <span id="saving-amount"></span> </span> <br>
+                    <span class="text-2xl  font-bold mt-4">Remaining Balance: <span id="remaining"></span> </span>
+                </div>
+            </div>
+        </section>
+
+        <script src="app.js"></script>
+</body>
+</html>
